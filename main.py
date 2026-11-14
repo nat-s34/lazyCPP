@@ -25,10 +25,9 @@ def writeCode():
     time.sleep(.01)
     typeChar('return 0;')
     kboard.tap(Key.enter)
-    time.sleep(.1)
-    #kboard.tap(Key.backspace)
     time.sleep(.01)
     typeChar('}')
+
 
 
 def main():
